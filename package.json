@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx functions-framework --target=helloWorld [--signature-type=http]"
+    "start": "npx functions-framework --target=stocksNews [--signature-type=http]"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "@google-cloud/functions-framework": "^1.7.1"
   },
   "dependencies": {
-    "fetch": "^1.1.0"
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1"
   }
 }
