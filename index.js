@@ -21,7 +21,7 @@ exports.stocksNews = async (req, res) => {
       "alt_text": "Image"
     },
   }
-  return {...slackTemplate };
+  return slackTemplate;
   });
 
   res.status(200).json({blocks});
